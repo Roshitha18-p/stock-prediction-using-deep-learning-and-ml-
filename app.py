@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 st.title("📈 NIFTY 50 Stock Price Prediction (LSTM)")
 
 # Load dataset
-df = pd.read_csv("NIFTY 50.csv")
+df = pd.read_csv("NIFTY 50_Historical_PR_01011990to11102024.csv")
 
 st.subheader("Dataset Preview")
 st.write(df.head())
